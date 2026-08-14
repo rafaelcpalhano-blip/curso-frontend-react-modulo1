@@ -1,0 +1,12 @@
+#by-name {
+    color: teal;
+
+}
+
+#by-hex {
+    color: #5a472d;
+}
+
+#by-rgb {
+    color: rgba(45, 90, 55, 0.589);
+}
