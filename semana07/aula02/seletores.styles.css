@@ -1,0 +1,15 @@
+.highlight {
+    background-color: yellow;
+}
+
+.text-highlight {
+    color: green;
+}
+
+#text-description {
+    color:crimson;
+}
+
+.list li {
+    background-color: goldenrod;
+}
