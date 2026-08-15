@@ -1,0 +1,38 @@
+/*Reset do CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: beige;
+}
+body {
+    max-width: 640px;
+    margin: 12px auto;
+    padding: 26px;
+    background-color: white;
+}
+
+#centered {
+    width: 60px;
+    height: 60px;
+    background-color: darkred;
+    margin: 0 auto;
+}
+
+#inline {
+    display: inline;
+}
+
+button { 
+    padding: 12px;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: black;
+    color: aqua;
+}
