@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 640;
+    margin: 0 auto;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgb(214, 214, 214);
+    color: rgb(51, 51, 51);
+    padding: 34px 28px;
+}
+
+div button {
+    font-size: 200px;
+    font-size: 100px;
+    padding: 45px;
+    text-align: center;
+    background-color: rgb(122, 122, 115);
+    
+}
+
+div p {
+    font-size: 80px;
+    text-align: center;
+}
