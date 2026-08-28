@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Javascript</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h3>Formulários - Javacript</h3>
+
+    <fieldset>
+        <p>Cadastro de Perfil</p>
+        <form>
+            <div>
+                <label for="name">Digite seu nome</label>
+                <input id="name" name="name" type="text" />
+            </div>
+            <div>
+                <label for="age">Digite a sua idade</label>
+                <input id="age" name="age" type="number" />
+            </div>
+
+            <div>
+                <label for="studentLevel">Selecione seu nível de graduação</label>
+                <select name="studentLevel" id="studentLevel">
+                    <option value="">Selecione...</option>
+                    <option value="em">Ensino Médio</option>
+                    <option value="es">Ensino Superior</option>
+                    <option value="pos">Pós Graduação</option>
+                </select>
+            </div>
+
+
+            <fieldset>
+                <legend> Selecione o gênero que você se identifica</legend>
+                <label for="male">Masculino</label>
+                <input id="male" name="gender" type="radio" value="Masculino" required />
+
+                <label for="female">Feminino</label>
+                <input id="female" name="gender" type="radio" value="Feminino" required />
+
+
+            </fieldset>
+
+            <div>
+                <input id="terms" name="terms" type="checkbox" required />
+                <label for="terms">Li termos de uso | </label>
+                
+                <input id="politics" name="politics" type="checkbox" required />
+                <label for="politics">Li política de privacidade</label>
+                
+            </div>
+
+            <button>Cadastrar</button>
+
+    </fieldset>
+    </form>
+
+    <br />
+    <fieldset>
+        <p id="success"></p>
+
+        <div id="userData"></div>
+    </fieldset>
+
+    <script src="../aula02/assets/scripts/index.script.js"></script>
+</body>
+
+</html>
