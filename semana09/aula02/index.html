@@ -11,6 +11,20 @@
             padding: 0;
             box-sizing: border-box;
         }
+
+    body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+    h3 {
+    margin-bottom: 15px;
+}
+
     </style>
 
 </head>
@@ -23,16 +37,16 @@
         <form>
             <div>
                 <label for="name">Digite seu nome</label>
-                <input id="name" name="name" type="text" />
+                <input id="name" name="name" type="text" required/>
             </div>
             <div>
                 <label for="age">Digite a sua idade</label>
-                <input id="age" name="age" type="number" />
+                <input id="age" name="age" type="number" required />
             </div>
 
             <div>
                 <label for="studentLevel">Selecione seu nível de graduação</label>
-                <select name="studentLevel" id="studentLevel">
+                <select name="studentLevel" id="studentLevel" required>
                     <option value="">Selecione...</option>
                     <option value="em">Ensino Médio</option>
                     <option value="es">Ensino Superior</option>
@@ -63,8 +77,9 @@
 
             <button>Cadastrar</button>
 
-    </fieldset>
+    
     </form>
+    </fieldset>
 
     <br />
     <fieldset>
