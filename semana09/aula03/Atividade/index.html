@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/index.styles.css">
+    <title>Atividade</title>
+
+</head>
+<body>
+    <h2>Jantar Coletivo no salão do prédio</h2>
+
+    <form id="form">
+        <fieldset>
+        <div id="guest-input">
+            <label for="guest">Nome do convidade</label>
+            <input id="guest" name="guest" type="text" required />
+            <p style="color: red;" id="name-error"></p>
+        </div>
+        <div>
+            <label for="dish">O que vai levar</label>
+            <select name="dish" id="dish" required>
+                    <option value="">Selecione...</option>
+                    <option value="carne">Carne</option>
+                    <option value="maionese">Maionese</option>
+                    <option value="bebida">Bebida</option>
+                    <option value="pao">Pão de alho</option>
+                    <option value="farofa">Farofa</option>
+                </select>
+        </div>
+        
+<br/>
+    <button>Adicionar Convidado</button>
+    </fieldset>
+
+    </form>
+
+<fieldset>
+    <h2>Quem ja confirmou:</h2>
+    <p id="counter">0 confirmado(s)</p>
+
+    <ul id="list">
+        
+    </ul>
+    </fieldset>
+
+    
+    <script src="./assets/script/index.script.js"></script>
+</body>
+</html>
