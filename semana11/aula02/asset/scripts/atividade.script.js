@@ -21,3 +21,13 @@ form.addEventListener("submit", (e) => {
 
   nameInput.value = "";
 });
+
+const clearButton = document.getElementById("clear-button");
+clearButton.addEventListener("click", () => {
+  console.log("Limpeza localStorage")
+  
+//localStorage.clear();
+localStorage.removeItem("name")
+})
+
+
