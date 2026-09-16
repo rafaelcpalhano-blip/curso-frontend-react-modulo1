@@ -1,0 +1,13 @@
+{
+  "name": "aula01",
+  "version": "1.0.0",
+  "description": "Introdução ao Node.JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["javascript", "nodejs", "intro"],
+  "author": "Rafael Caron Palhano",
+  "license": "ISC",
+  "type": "commonjs"
+}
